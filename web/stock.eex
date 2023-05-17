@@ -1,0 +1,30 @@
+<h2 class="font-bold text-3xl"><%= @name %></h2>
+
+<table class="mt-14 w-full text-xl">
+  <thead class="border-b-2 border-b-gray-200">
+    <tr>
+      <th>Farbe</th>
+      <%= for size <- @sizes do %>
+      <th><%= size.name %></th>
+      <% end %>
+    </tr>
+  </thead>
+  <tbody>
+    <%= for color <- @colors do %>
+      <tr>
+        <td class="flex flex-col align-middle">
+          <p class="font-bold mb-3 text-center"><%= color.name %></p>
+          <img
+            class="w-24 self-center"
+            src="<%= color.image %>"
+            alt="Vorschau"
+          />
+        </td>
+
+        <%= for stock <- Map.fetch!(@stock, color.id) do %>
+            <td><%= stock.quantity %></td>
+        <% end %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

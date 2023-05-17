@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stanley/Stella :: Verfügbarkeit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      *:focus {
+        @apply appearance-none outline-none;
+      }
+
+      th,
+      td {
+        /* padding: 0.5rem; */
+        padding: 1rem;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body class="p-5 md:p-20 flex justify-center">
+    <div class="max-w-[700px]">
+      <header class="border-b-2 border-b-gray-200">
+        <h2 class="text-2xl text-[#00ab3b] mb-2">Stanley/Stella</h2>
+        <h1 class="font-bold text-5xl mb-6">Verfügbarkeit prüfen</h1>
+      </header>
+
+      <section class="mt-14 flex flex-row justify-between gap-20">
+        <p class="text-lg">
+          Besuche die
+          <a
+            class="font-medium no-underline underline-offset-2 hover:underline transition duration-300 ease-in-out"
+            href="https://www.stanleystella.com/de-de/kollektion"
+            >Herstellerseite</a
+          >
+          und wähle ein Kleidungsstück aus. Jeder Artikel hat eine Produkt ID
+          (beispielsweise
+          <code class="font-mono bg-gray-200 p-1 rounded-lg">STSU799</code>),
+          die du unten in das Feld eingeben musst. Dann kannst du mit einem
+          Klick auf den Knopf die verfügbaren Größen und Farben abrufen.
+        </p>
+      </section>
+
+      <form
+        class="mt-14 flex flex-row justify-between gap-20 flex-wrap md:flex-nowrap"
+      >
+        <input
+          name="product_id"
+          type="text"
+          placeholder="Produkt ID"
+          class="p-2 w-full border-solid border-b-2 focus:outline-none focus:border-b-gray-400"
+        />
+        <button
+          type="submit"
+          class="bg-[#00ab3b] px-10 py-3 rounded-xl font-bold text-white text-xl"
+        >
+          Abrufen
+        </button>
+      </form>
+
+      <section id="results" class="mt-20"></section>
+    </div>
+
+    <script>
+      let results = document.querySelector("section#results");
+
+      document.querySelector("form").addEventListener("submit", (event) => {
+        event.preventDefault();
+        results.innerHTML = "<p>Lade Ergebnisse...</p>";
+
+        fetch("/stock/" + document.querySelector("input").value.trim())
+          .then((response) => response.text())
+          .then((html) => (results.innerHTML = html));
+      });
+    </script>
+  </body>
+</html>

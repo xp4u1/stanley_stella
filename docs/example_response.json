@@ -1,0 +1,2260 @@
+{
+  "uoms": [{ "id": "PCS", "name": "PCS" }],
+  "rows": [
+    {
+      "id": "C100",
+      "name": "Go Green",
+      "img": "/content/files/images/ColorImages/C100.png"
+    },
+    {
+      "id": "C002",
+      "name": "Black",
+      "img": "/content/files/images/ColorImages/C002.png"
+    },
+    {
+      "id": "C250",
+      "name": "Heather Grey",
+      "img": "/content/files/images/ColorImages/C250.png"
+    },
+    {
+      "id": "C001",
+      "name": "White",
+      "img": "/content/files/images/ColorImages/C001.png"
+    },
+    {
+      "id": "C054",
+      "name": "Natural Raw",
+      "img": "/content/files/images/ColorImages/C054.png"
+    },
+    {
+      "id": "C078",
+      "name": "Butter",
+      "img": "/content/files/images/ColorImages/C078.png"
+    },
+    {
+      "id": "C053",
+      "name": "Bright Blue",
+      "img": "/content/files/images/ColorImages/C053.png"
+    },
+    {
+      "id": "C727",
+      "name": "French Navy",
+      "img": "/content/files/images/ColorImages/C727.png"
+    },
+    {
+      "id": "C244",
+      "name": "Burgundy",
+      "img": "/content/files/images/ColorImages/C244.png"
+    },
+    {
+      "id": "C038",
+      "name": "Canyon Pink",
+      "img": "/content/files/images/ColorImages/C038.png"
+    }
+  ],
+  "columns": [
+    { "id": "2S", "name": "<h4>XXS</h4>" },
+    { "id": "XS", "name": "<h4>XS</h4>" },
+    { "id": "1S", "name": "<h4>S</h4>" },
+    { "id": "1M", "name": "<h4>M</h4>" },
+    { "id": "1L", "name": "<h4>L</h4>" },
+    { "id": "1X", "name": "<h4>XL</h4>" },
+    { "id": "2X", "name": "<h4>XXL</h4>" },
+    { "id": "3X", "name": "<h4>XXXL</h4>" }
+  ],
+  "variants": [
+    {
+      "variantId": "C0011L",
+      "rowId": "C001",
+      "columnId": "1L",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 1131.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "16/07/2023",
+              "quantity": "640 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 1553.0
+        },
+        { "expectedArrivals": [], "inventory": 408.0 }
+      ]
+    },
+    {
+      "variantId": "C0011M",
+      "rowId": "C001",
+      "columnId": "1M",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 921.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "16/07/2023",
+              "quantity": "720 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 2052.0
+        },
+        { "expectedArrivals": [], "inventory": 445.0 }
+      ]
+    },
+    {
+      "variantId": "C0011S",
+      "rowId": "C001",
+      "columnId": "1S",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 299.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "16/07/2023",
+              "quantity": "440 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 1537.0
+        },
+        { "expectedArrivals": [], "inventory": 295.0 }
+      ]
+    },
+    {
+      "variantId": "C0011X",
+      "rowId": "C001",
+      "columnId": "1X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 178.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "16/07/2023",
+              "quantity": "360 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 1242.0
+        },
+        { "expectedArrivals": [], "inventory": 213.0 }
+      ]
+    },
+    {
+      "variantId": "C0012S",
+      "rowId": "C001",
+      "columnId": "2S",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 20.0 },
+      "warehouses": [
+        { "expectedArrivals": [], "inventory": 30.0 },
+        { "expectedArrivals": [], "inventory": 10.0 }
+      ]
+    },
+    {
+      "variantId": "C0012X",
+      "rowId": "C001",
+      "columnId": "2X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 102.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "16/07/2023",
+              "quantity": "160 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 472.0
+        },
+        { "expectedArrivals": [], "inventory": 80.0 }
+      ]
+    },
+    {
+      "variantId": "C0013X",
+      "rowId": "C001",
+      "columnId": "3X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 28.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "19/05/2023",
+              "quantity": " pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "16/07/2023",
+              "quantity": "30 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 49.0
+        },
+        { "expectedArrivals": [], "inventory": 10.0 }
+      ]
+    },
+    {
+      "variantId": "C001XS",
+      "rowId": "C001",
+      "columnId": "XS",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 77.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "16/07/2023",
+              "quantity": "140 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 414.0
+        },
+        { "expectedArrivals": [], "inventory": 52.0 }
+      ]
+    },
+    {
+      "variantId": "C0021L",
+      "rowId": "C002",
+      "columnId": "1L",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 4984.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "24/05/2023",
+              "quantity": "3580 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "2260 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 9581.0
+        },
+        {
+          "expectedArrivals": [
+            {
+              "date": "22/05/2023",
+              "quantity": "180 pieces",
+              "warehouseId": "DSVUK"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "320 pieces",
+              "warehouseId": "DSVUK"
+            },
+            {
+              "date": "20/08/2023",
+              "quantity": "200 pieces",
+              "warehouseId": "DSVUK"
+            }
+          ],
+          "inventory": 792.0
+        }
+      ]
+    },
+    {
+      "variantId": "C0021M",
+      "rowId": "C002",
+      "columnId": "1M",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 6278.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "24/05/2023",
+              "quantity": "4010 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "2440 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 10347.0
+        },
+        {
+          "expectedArrivals": [
+            {
+              "date": "22/05/2023",
+              "quantity": "240 pieces",
+              "warehouseId": "DSVUK"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "280 pieces",
+              "warehouseId": "DSVUK"
+            },
+            {
+              "date": "20/08/2023",
+              "quantity": "220 pieces",
+              "warehouseId": "DSVUK"
+            }
+          ],
+          "inventory": 943.0
+        }
+      ]
+    },
+    {
+      "variantId": "C0021S",
+      "rowId": "C002",
+      "columnId": "1S",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 3447.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "24/05/2023",
+              "quantity": "2520 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "1520 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 7266.0
+        },
+        {
+          "expectedArrivals": [
+            {
+              "date": "22/05/2023",
+              "quantity": "140 pieces",
+              "warehouseId": "DSVUK"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "180 pieces",
+              "warehouseId": "DSVUK"
+            },
+            {
+              "date": "20/08/2023",
+              "quantity": "140 pieces",
+              "warehouseId": "DSVUK"
+            }
+          ],
+          "inventory": 610.0
+        }
+      ]
+    },
+    {
+      "variantId": "C0021X",
+      "rowId": "C002",
+      "columnId": "1X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 2569.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "24/05/2023",
+              "quantity": "1935 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "1240 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 5218.0
+        },
+        {
+          "expectedArrivals": [
+            {
+              "date": "22/05/2023",
+              "quantity": "120 pieces",
+              "warehouseId": "DSVUK"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "180 pieces",
+              "warehouseId": "DSVUK"
+            },
+            {
+              "date": "20/08/2023",
+              "quantity": "100 pieces",
+              "warehouseId": "DSVUK"
+            }
+          ],
+          "inventory": 394.0
+        }
+      ]
+    },
+    {
+      "variantId": "C0022S",
+      "rowId": "C002",
+      "columnId": "2S",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 35.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "24/05/2023",
+              "quantity": "100 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "40 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 240.0
+        },
+        { "expectedArrivals": [], "inventory": 20.0 }
+      ]
+    },
+    {
+      "variantId": "C0022X",
+      "rowId": "C002",
+      "columnId": "2X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 970.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "24/05/2023",
+              "quantity": "860 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "520 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 2305.0
+        },
+        {
+          "expectedArrivals": [
+            {
+              "date": "22/05/2023",
+              "quantity": "60 pieces",
+              "warehouseId": "DSVUK"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "80 pieces",
+              "warehouseId": "DSVUK"
+            },
+            {
+              "date": "20/08/2023",
+              "quantity": "60 pieces",
+              "warehouseId": "DSVUK"
+            }
+          ],
+          "inventory": 139.0
+        }
+      ]
+    },
+    {
+      "variantId": "C0023X",
+      "rowId": "C002",
+      "columnId": "3X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 59.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "19/05/2023",
+              "quantity": " pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "24/05/2023",
+              "quantity": "170 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "100 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 335.0
+        },
+        {
+          "expectedArrivals": [
+            {
+              "date": "22/05/2023",
+              "quantity": "10 pieces",
+              "warehouseId": "DSVUK"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "20 pieces",
+              "warehouseId": "DSVUK"
+            },
+            {
+              "date": "20/08/2023",
+              "quantity": "20 pieces",
+              "warehouseId": "DSVUK"
+            }
+          ],
+          "inventory": 24.0
+        }
+      ]
+    },
+    {
+      "variantId": "C002XS",
+      "rowId": "C002",
+      "columnId": "XS",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 615.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "24/05/2023",
+              "quantity": "730 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "400 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 2401.0
+        },
+        {
+          "expectedArrivals": [
+            {
+              "date": "22/05/2023",
+              "quantity": "40 pieces",
+              "warehouseId": "DSVUK"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "40 pieces",
+              "warehouseId": "DSVUK"
+            },
+            {
+              "date": "20/08/2023",
+              "quantity": "40 pieces",
+              "warehouseId": "DSVUK"
+            }
+          ],
+          "inventory": 176.0
+        }
+      ]
+    },
+    {
+      "variantId": "C0381L",
+      "rowId": "C038",
+      "columnId": "1L",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 125.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "05/06/2023",
+              "quantity": "220 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "220 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 550.0
+        },
+        {
+          "expectedArrivals": [
+            {
+              "date": "19/05/2023",
+              "quantity": " pieces",
+              "warehouseId": "DSVUK"
+            }
+          ],
+          "inventory": 14.0
+        }
+      ]
+    },
+    {
+      "variantId": "C0381M",
+      "rowId": "C038",
+      "columnId": "1M",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 208.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "05/06/2023",
+              "quantity": "260 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "240 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 542.0
+        },
+        {
+          "expectedArrivals": [
+            {
+              "date": "19/05/2023",
+              "quantity": " pieces",
+              "warehouseId": "DSVUK"
+            }
+          ],
+          "inventory": 10.0
+        }
+      ]
+    },
+    {
+      "variantId": "C0381S",
+      "rowId": "C038",
+      "columnId": "1S",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 75.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "05/06/2023",
+              "quantity": "140 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "160 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 354.0
+        },
+        {
+          "expectedArrivals": [
+            {
+              "date": "19/05/2023",
+              "quantity": " pieces",
+              "warehouseId": "DSVUK"
+            }
+          ],
+          "inventory": 12.0
+        }
+      ]
+    },
+    {
+      "variantId": "C0381X",
+      "rowId": "C038",
+      "columnId": "1X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 56.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "05/06/2023",
+              "quantity": "100 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "100 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 335.0
+        },
+        { "expectedArrivals": [], "inventory": 18.0 }
+      ]
+    },
+    {
+      "variantId": "C0382S",
+      "rowId": "C038",
+      "columnId": "2S",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 17.0 },
+      "warehouses": [
+        { "expectedArrivals": [], "inventory": 40.0 },
+        { "expectedArrivals": [], "inventory": 10.0 }
+      ]
+    },
+    {
+      "variantId": "C0382X",
+      "rowId": "C038",
+      "columnId": "2X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 45.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "19/05/2023",
+              "quantity": " pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "05/06/2023",
+              "quantity": "60 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "20 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 95.0
+        },
+        { "expectedArrivals": [], "inventory": 18.0 }
+      ]
+    },
+    {
+      "variantId": "C0383X",
+      "rowId": "C038",
+      "columnId": "3X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 17.0 },
+      "warehouses": [
+        { "expectedArrivals": [], "inventory": 39.0 },
+        { "expectedArrivals": [], "inventory": 10.0 }
+      ]
+    },
+    {
+      "variantId": "C038XS",
+      "rowId": "C038",
+      "columnId": "XS",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 22.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "05/06/2023",
+              "quantity": "20 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "60 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 79.0
+        },
+        { "expectedArrivals": [], "inventory": 16.0 }
+      ]
+    },
+    {
+      "variantId": "C0531L",
+      "rowId": "C053",
+      "columnId": "1L",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 60.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "24/05/2023",
+              "quantity": "200 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "20/08/2023",
+              "quantity": "220 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 385.0
+        },
+        { "expectedArrivals": [], "inventory": 13.0 }
+      ]
+    },
+    {
+      "variantId": "C0531M",
+      "rowId": "C053",
+      "columnId": "1M",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 66.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "24/05/2023",
+              "quantity": "260 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "20/08/2023",
+              "quantity": "260 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 356.0
+        },
+        { "expectedArrivals": [], "inventory": 29.0 }
+      ]
+    },
+    {
+      "variantId": "C0531S",
+      "rowId": "C053",
+      "columnId": "1S",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 56.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "24/05/2023",
+              "quantity": "160 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "20/08/2023",
+              "quantity": "160 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 186.0
+        },
+        { "expectedArrivals": [], "inventory": 32.0 }
+      ]
+    },
+    {
+      "variantId": "C0531X",
+      "rowId": "C053",
+      "columnId": "1X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 45.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "24/05/2023",
+              "quantity": "100 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "20/08/2023",
+              "quantity": "100 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 211.0
+        },
+        { "expectedArrivals": [], "inventory": 18.0 }
+      ]
+    },
+    {
+      "variantId": "C0532S",
+      "rowId": "C053",
+      "columnId": "2S",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 1.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "24/05/2023",
+              "quantity": "20 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "20/08/2023",
+              "quantity": "10 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 19.0
+        },
+        { "expectedArrivals": [], "inventory": 10.0 }
+      ]
+    },
+    {
+      "variantId": "C0532X",
+      "rowId": "C053",
+      "columnId": "2X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 24.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "24/05/2023",
+              "quantity": "40 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "20/08/2023",
+              "quantity": "20 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 88.0
+        },
+        { "expectedArrivals": [], "inventory": 20.0 }
+      ]
+    },
+    {
+      "variantId": "C0533X",
+      "rowId": "C053",
+      "columnId": "3X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 9.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "20/08/2023",
+              "quantity": "10 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 37.0
+        },
+        { "expectedArrivals": [], "inventory": 10.0 }
+      ]
+    },
+    {
+      "variantId": "C053XS",
+      "rowId": "C053",
+      "columnId": "XS",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 0.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "24/05/2023",
+              "quantity": "40 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "20/08/2023",
+              "quantity": "40 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 46.0
+        },
+        { "expectedArrivals": [], "inventory": 16.0 }
+      ]
+    },
+    {
+      "variantId": "C0541L",
+      "rowId": "C054",
+      "columnId": "1L",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 751.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "19/06/2023",
+              "quantity": "835 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "360 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 2044.0
+        },
+        {
+          "expectedArrivals": [
+            {
+              "date": "20/08/2023",
+              "quantity": "220 pieces",
+              "warehouseId": "DSVUK"
+            }
+          ],
+          "inventory": 507.0
+        }
+      ]
+    },
+    {
+      "variantId": "C0541M",
+      "rowId": "C054",
+      "columnId": "1M",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 1419.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "19/06/2023",
+              "quantity": "900 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "360 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 1742.0
+        },
+        {
+          "expectedArrivals": [
+            {
+              "date": "20/08/2023",
+              "quantity": "220 pieces",
+              "warehouseId": "DSVUK"
+            }
+          ],
+          "inventory": 589.0
+        }
+      ]
+    },
+    {
+      "variantId": "C0541S",
+      "rowId": "C054",
+      "columnId": "1S",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 632.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "19/06/2023",
+              "quantity": "595 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "160 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 1388.0
+        },
+        {
+          "expectedArrivals": [
+            {
+              "date": "20/08/2023",
+              "quantity": "140 pieces",
+              "warehouseId": "DSVUK"
+            }
+          ],
+          "inventory": 369.0
+        }
+      ]
+    },
+    {
+      "variantId": "C0541X",
+      "rowId": "C054",
+      "columnId": "1X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 517.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "19/06/2023",
+              "quantity": "435 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "220 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 1000.0
+        },
+        {
+          "expectedArrivals": [
+            {
+              "date": "20/08/2023",
+              "quantity": "120 pieces",
+              "warehouseId": "DSVUK"
+            }
+          ],
+          "inventory": 263.0
+        }
+      ]
+    },
+    {
+      "variantId": "C0542S",
+      "rowId": "C054",
+      "columnId": "2S",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 23.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "19/06/2023",
+              "quantity": "30 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 29.0
+        },
+        { "expectedArrivals": [], "inventory": 10.0 }
+      ]
+    },
+    {
+      "variantId": "C0542X",
+      "rowId": "C054",
+      "columnId": "2X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 111.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "19/06/2023",
+              "quantity": "200 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "100 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 504.0
+        },
+        {
+          "expectedArrivals": [
+            {
+              "date": "20/08/2023",
+              "quantity": "60 pieces",
+              "warehouseId": "DSVUK"
+            }
+          ],
+          "inventory": 119.0
+        }
+      ]
+    },
+    {
+      "variantId": "C0543X",
+      "rowId": "C054",
+      "columnId": "3X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 32.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "19/06/2023",
+              "quantity": "70 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 79.0
+        },
+        {
+          "expectedArrivals": [
+            {
+              "date": "20/08/2023",
+              "quantity": "10 pieces",
+              "warehouseId": "DSVUK"
+            }
+          ],
+          "inventory": 9.0
+        }
+      ]
+    },
+    {
+      "variantId": "C054XS",
+      "rowId": "C054",
+      "columnId": "XS",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 165.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "19/06/2023",
+              "quantity": "175 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "80 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 352.0
+        },
+        {
+          "expectedArrivals": [
+            {
+              "date": "20/08/2023",
+              "quantity": "40 pieces",
+              "warehouseId": "DSVUK"
+            }
+          ],
+          "inventory": 100.0
+        }
+      ]
+    },
+    {
+      "variantId": "C0781L",
+      "rowId": "C078",
+      "columnId": "1L",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 146.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "05/06/2023",
+              "quantity": "240 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "20/08/2023",
+              "quantity": "380 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 396.0
+        },
+        { "expectedArrivals": [], "inventory": 55.0 }
+      ]
+    },
+    {
+      "variantId": "C0781M",
+      "rowId": "C078",
+      "columnId": "1M",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 116.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "05/06/2023",
+              "quantity": "200 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "20/08/2023",
+              "quantity": "460 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 513.0
+        },
+        { "expectedArrivals": [], "inventory": 75.0 }
+      ]
+    },
+    {
+      "variantId": "C0781S",
+      "rowId": "C078",
+      "columnId": "1S",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 86.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "05/06/2023",
+              "quantity": "140 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "20/08/2023",
+              "quantity": "260 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 313.0
+        },
+        { "expectedArrivals": [], "inventory": 40.0 }
+      ]
+    },
+    {
+      "variantId": "C0781X",
+      "rowId": "C078",
+      "columnId": "1X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 53.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "05/06/2023",
+              "quantity": "195 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "20/08/2023",
+              "quantity": "220 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 136.0
+        },
+        { "expectedArrivals": [], "inventory": 40.0 }
+      ]
+    },
+    {
+      "variantId": "C0782S",
+      "rowId": "C078",
+      "columnId": "2S",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 16.0 },
+      "warehouses": [
+        { "expectedArrivals": [], "inventory": 37.0 },
+        { "expectedArrivals": [], "inventory": 10.0 }
+      ]
+    },
+    {
+      "variantId": "C0782X",
+      "rowId": "C078",
+      "columnId": "2X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 32.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "20/08/2023",
+              "quantity": "80 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 136.0
+        },
+        { "expectedArrivals": [], "inventory": 20.0 }
+      ]
+    },
+    {
+      "variantId": "C0783X",
+      "rowId": "C078",
+      "columnId": "3X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 13.0 },
+      "warehouses": [
+        { "expectedArrivals": [], "inventory": 49.0 },
+        { "expectedArrivals": [], "inventory": 10.0 }
+      ]
+    },
+    {
+      "variantId": "C078XS",
+      "rowId": "C078",
+      "columnId": "XS",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 15.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "05/06/2023",
+              "quantity": "40 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "20/08/2023",
+              "quantity": "40 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 97.0
+        },
+        { "expectedArrivals": [], "inventory": 20.0 }
+      ]
+    },
+    {
+      "variantId": "C1001L",
+      "rowId": "C100",
+      "columnId": "1L",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 141.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "05/06/2023",
+              "quantity": "240 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "240 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 315.0
+        },
+        { "expectedArrivals": [], "inventory": 19.0 }
+      ]
+    },
+    {
+      "variantId": "C1001M",
+      "rowId": "C100",
+      "columnId": "1M",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 116.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "05/06/2023",
+              "quantity": "250 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "260 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 410.0
+        },
+        { "expectedArrivals": [], "inventory": 20.0 }
+      ]
+    },
+    {
+      "variantId": "C1001S",
+      "rowId": "C100",
+      "columnId": "1S",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 120.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "05/06/2023",
+              "quantity": "150 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "140 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 235.0
+        },
+        { "expectedArrivals": [], "inventory": 20.0 }
+      ]
+    },
+    {
+      "variantId": "C1001X",
+      "rowId": "C100",
+      "columnId": "1X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 96.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "05/06/2023",
+              "quantity": "110 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "120 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 146.0
+        },
+        { "expectedArrivals": [], "inventory": 20.0 }
+      ]
+    },
+    {
+      "variantId": "C1002S",
+      "rowId": "C100",
+      "columnId": "2S",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 15.0 },
+      "warehouses": [
+        { "expectedArrivals": [], "inventory": 37.0 },
+        { "expectedArrivals": [], "inventory": 10.0 }
+      ]
+    },
+    {
+      "variantId": "C1002X",
+      "rowId": "C100",
+      "columnId": "2X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 38.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "05/06/2023",
+              "quantity": "40 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "20 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 70.0
+        },
+        { "expectedArrivals": [], "inventory": 20.0 }
+      ]
+    },
+    {
+      "variantId": "C1003X",
+      "rowId": "C100",
+      "columnId": "3X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 7.0 },
+      "warehouses": [
+        { "expectedArrivals": [], "inventory": 39.0 },
+        { "expectedArrivals": [], "inventory": 10.0 }
+      ]
+    },
+    {
+      "variantId": "C100XS",
+      "rowId": "C100",
+      "columnId": "XS",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 22.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "05/06/2023",
+              "quantity": "20 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "20 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 85.0
+        },
+        { "expectedArrivals": [], "inventory": 20.0 }
+      ]
+    },
+    {
+      "variantId": "C2441L",
+      "rowId": "C244",
+      "columnId": "1L",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 357.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "25/05/2023",
+              "quantity": "220 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "220 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 974.0
+        },
+        { "expectedArrivals": [], "inventory": 40.0 }
+      ]
+    },
+    {
+      "variantId": "C2441M",
+      "rowId": "C244",
+      "columnId": "1M",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 648.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "25/05/2023",
+              "quantity": "260 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "240 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 853.0
+        },
+        { "expectedArrivals": [], "inventory": 40.0 }
+      ]
+    },
+    {
+      "variantId": "C2441S",
+      "rowId": "C244",
+      "columnId": "1S",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 137.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "25/05/2023",
+              "quantity": "160 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "160 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 794.0
+        },
+        {
+          "expectedArrivals": [
+            {
+              "date": "19/05/2023",
+              "quantity": " pieces",
+              "warehouseId": "DSVUK"
+            }
+          ],
+          "inventory": 19.0
+        }
+      ]
+    },
+    {
+      "variantId": "C2441X",
+      "rowId": "C244",
+      "columnId": "1X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 266.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "25/05/2023",
+              "quantity": "120 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "120 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 452.0
+        },
+        { "expectedArrivals": [], "inventory": 20.0 }
+      ]
+    },
+    {
+      "variantId": "C2442S",
+      "rowId": "C244",
+      "columnId": "2S",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 20.0 },
+      "warehouses": [
+        { "expectedArrivals": [], "inventory": 40.0 },
+        { "expectedArrivals": [], "inventory": 10.0 }
+      ]
+    },
+    {
+      "variantId": "C2442X",
+      "rowId": "C244",
+      "columnId": "2X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 33.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "25/05/2023",
+              "quantity": "20 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "40 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 276.0
+        },
+        { "expectedArrivals": [], "inventory": 20.0 }
+      ]
+    },
+    {
+      "variantId": "C2443X",
+      "rowId": "C244",
+      "columnId": "3X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 20.0 },
+      "warehouses": [
+        { "expectedArrivals": [], "inventory": 48.0 },
+        { "expectedArrivals": [], "inventory": 10.0 }
+      ]
+    },
+    {
+      "variantId": "C244XS",
+      "rowId": "C244",
+      "columnId": "XS",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 56.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "25/05/2023",
+              "quantity": "40 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "20 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 179.0
+        },
+        { "expectedArrivals": [], "inventory": 20.0 }
+      ]
+    },
+    {
+      "variantId": "C2501L",
+      "rowId": "C250",
+      "columnId": "1L",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 2481.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "16/05/2023",
+              "quantity": "1220 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "17/05/2023",
+              "quantity": "900 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "12/06/2023",
+              "quantity": "1675 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "1000 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 1256.0
+        },
+        { "expectedArrivals": [], "inventory": 598.0 }
+      ]
+    },
+    {
+      "variantId": "C2501M",
+      "rowId": "C250",
+      "columnId": "1M",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 2929.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "17/05/2023",
+              "quantity": "2380 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "12/06/2023",
+              "quantity": "1875 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "980 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 1291.0
+        },
+        { "expectedArrivals": [], "inventory": 682.0 }
+      ]
+    },
+    {
+      "variantId": "C2501S",
+      "rowId": "C250",
+      "columnId": "1S",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 1716.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "17/05/2023",
+              "quantity": "1520 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "12/06/2023",
+              "quantity": "1175 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "600 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 952.0
+        },
+        { "expectedArrivals": [], "inventory": 440.0 }
+      ]
+    },
+    {
+      "variantId": "C2501X",
+      "rowId": "C250",
+      "columnId": "1X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 1236.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "16/05/2023",
+              "quantity": "1160 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "12/06/2023",
+              "quantity": "890 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "600 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 776.0
+        },
+        { "expectedArrivals": [], "inventory": 307.0 }
+      ]
+    },
+    {
+      "variantId": "C2502S",
+      "rowId": "C250",
+      "columnId": "2S",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 26.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "17/05/2023",
+              "quantity": "50 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "12/06/2023",
+              "quantity": "30 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "10 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 29.0
+        },
+        { "expectedArrivals": [], "inventory": 10.0 }
+      ]
+    },
+    {
+      "variantId": "C2502X",
+      "rowId": "C250",
+      "columnId": "2X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 334.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "16/05/2023",
+              "quantity": "480 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "12/06/2023",
+              "quantity": "360 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "280 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 512.0
+        },
+        { "expectedArrivals": [], "inventory": 139.0 }
+      ]
+    },
+    {
+      "variantId": "C2503X",
+      "rowId": "C250",
+      "columnId": "3X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 19.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "16/05/2023",
+              "quantity": "100 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "12/06/2023",
+              "quantity": "70 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "20 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 140.0
+        },
+        { "expectedArrivals": [], "inventory": 40.0 }
+      ]
+    },
+    {
+      "variantId": "C250XS",
+      "rowId": "C250",
+      "columnId": "XS",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 484.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "17/05/2023",
+              "quantity": "400 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "12/06/2023",
+              "quantity": "340 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "140 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 248.0
+        },
+        { "expectedArrivals": [], "inventory": 119.0 }
+      ]
+    },
+    {
+      "variantId": "C7271L",
+      "rowId": "C727",
+      "columnId": "1L",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 4161.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "25/05/2023",
+              "quantity": "1570 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "900 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 2904.0
+        },
+        { "expectedArrivals": [], "inventory": 849.0 }
+      ]
+    },
+    {
+      "variantId": "C7271M",
+      "rowId": "C727",
+      "columnId": "1M",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 5154.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "25/05/2023",
+              "quantity": "1750 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "1020 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 2746.0
+        },
+        { "expectedArrivals": [], "inventory": 957.0 }
+      ]
+    },
+    {
+      "variantId": "C7271S",
+      "rowId": "C727",
+      "columnId": "1S",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 3091.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "25/05/2023",
+              "quantity": "1110 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "620 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 1962.0
+        },
+        { "expectedArrivals": [], "inventory": 608.0 }
+      ]
+    },
+    {
+      "variantId": "C7271X",
+      "rowId": "C727",
+      "columnId": "1X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 2269.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "24/05/2023",
+              "quantity": "830 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "480 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 1609.0
+        },
+        { "expectedArrivals": [], "inventory": 460.0 }
+      ]
+    },
+    {
+      "variantId": "C7272S",
+      "rowId": "C727",
+      "columnId": "2S",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 57.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "25/05/2023",
+              "quantity": "40 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "10 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 80.0
+        },
+        { "expectedArrivals": [], "inventory": 10.0 }
+      ]
+    },
+    {
+      "variantId": "C7272X",
+      "rowId": "C727",
+      "columnId": "2X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 393.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "24/05/2023",
+              "quantity": "350 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "180 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 1208.0
+        },
+        { "expectedArrivals": [], "inventory": 200.0 }
+      ]
+    },
+    {
+      "variantId": "C7273X",
+      "rowId": "C727",
+      "columnId": "3X",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 54.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "24/05/2023",
+              "quantity": "70 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "40 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 257.0
+        },
+        { "expectedArrivals": [], "inventory": 40.0 }
+      ]
+    },
+    {
+      "variantId": "C727XS",
+      "rowId": "C727",
+      "columnId": "XS",
+      "unitOfMeasureId": "PCS",
+      "isDiscontinued": false,
+      "mainWarehouse": { "expectedArrivals": [], "inventory": 561.0 },
+      "warehouses": [
+        {
+          "expectedArrivals": [
+            {
+              "date": "25/05/2023",
+              "quantity": "315 pieces",
+              "warehouseId": "DSVDE-OK1"
+            },
+            {
+              "date": "23/07/2023",
+              "quantity": "160 pieces",
+              "warehouseId": "DSVDE-OK1"
+            }
+          ],
+          "inventory": 865.0
+        },
+        { "expectedArrivals": [], "inventory": 180.0 }
+      ]
+    }
+  ],
+  "stocks": null,
+  "stockFormat": "<strong>{0}</strong> {1}"
+}
