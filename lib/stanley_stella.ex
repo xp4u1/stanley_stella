@@ -120,11 +120,13 @@ defmodule StanleyStella do
     |> Enum.filter(&String.starts_with?(&1.id, "C001"))
   end
 
+  @eex File.read!("web/stock.eex")
+
   def product_table(product_id) do
     case stock(product_id) do
       {:ok, data} ->
         {:ok,
-         EEx.eval_file("web/stock.eex",
+         EEx.eval_string(@eex,
            assigns: [
              name: product_name!(product_id),
              colors: data.colors,
