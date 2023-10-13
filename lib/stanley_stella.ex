@@ -146,6 +146,18 @@ defmodule StanleyStella do
     end
   end
 
+  def preview_image(product_id, color_id, :front) do
+    preview_image_internal(product_id, color_id, "PFM0")
+  end
+
+  def preview_image(product_id, color_id, :back) do
+    preview_image_internal(product_id, color_id, "PBM0")
+  end
+
+  defp preview_image_internal(product_id, color_id, image_id) do
+    "https://res.cloudinary.com/www-stanleystella-com/t_webshop_large/TechnicalNames/#{image_id}_#{product_id}_#{color_id}.jpg"
+  end
+
   # -------
 
   defp map_by_id(structs) when is_list(structs) do
