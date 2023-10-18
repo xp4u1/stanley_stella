@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stanley/Stella :: Verfügbarkeit</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
     <style>
       *:focus {
         @apply appearance-none outline-none;
@@ -22,8 +22,8 @@
   <body class="p-5 md:p-20 flex justify-center">
     <div class="max-w-[700px]">
       <header class="border-b-2 border-b-gray-200">
-        <h2 class="text-2xl text-[#00ab3b] mb-2">Stanley/Stella</h2>
-        <h1 class="font-bold text-5xl mb-6">Verfügbarkeit prüfen</h1>
+        <h2 class="text-2xl text-teal-500 mb-2">Stanley/Stella</h2>
+        <h1 class="font-bold text-5xl mb-6">Produktdetails</h1>
       </header>
 
       <section class="mt-14 flex flex-row justify-between gap-20">
@@ -46,14 +46,15 @@
         class="mt-14 flex flex-row justify-between gap-20 flex-wrap md:flex-nowrap"
       >
         <input
+          id="product"
           name="product_id"
           type="text"
           placeholder="Produkt ID"
-          class="p-2 w-full border-solid border-b-2 focus:outline-none focus:border-b-gray-400"
+          class="mt-0 block w-full px-0.5 border-0 border-b-2 border-gray-200 focus:ring-0 focus:border-black"
         />
         <button
           type="submit"
-          class="bg-[#00ab3b] px-10 py-3 rounded-xl font-bold text-white text-xl"
+          class="bg-teal-500 px-10 py-3 rounded-xl font-bold text-white text-xl"
         >
           Abrufen
         </button>
@@ -63,15 +64,34 @@
     </div>
 
     <script>
+      const preview_base_url =
+        "https://res.cloudinary.com/www-stanleystella-com/t_webshop_large/TechnicalNames";
       let results = document.querySelector("section#results");
 
       document.querySelector("form").addEventListener("submit", (event) => {
         event.preventDefault();
         results.innerHTML = "<p>Lade Ergebnisse...</p>";
+        const product_id = document.querySelector("input#product").value.trim();
 
-        fetch("/stock/" + document.querySelector("input").value.trim())
+        fetch("/stock/" + product_id)
           .then((response) => response.text())
-          .then((html) => (results.innerHTML = html));
+          .then((html) => {
+            results.innerHTML = html;
+
+            let colorSelector = document.querySelector("select#color");
+            const changeColor = () => {
+              document.querySelector(
+                "img#preview_front"
+              ).src = `${preview_base_url}/PFM0_${product_id}_${colorSelector.value}.jpg`;
+
+              document.querySelector(
+                "img#preview_back"
+              ).src = `${preview_base_url}/PBM0_${product_id}_${colorSelector.value}.jpg`;
+            };
+
+            colorSelector.addEventListener("change", changeColor);
+            changeColor();
+          });
       });
     </script>
   </body>
