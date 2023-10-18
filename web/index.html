@@ -91,6 +91,23 @@
 
             colorSelector.addEventListener("change", changeColor);
             changeColor();
+
+            document
+              .querySelector("button#download")
+              .addEventListener("click", () => {
+                if (
+                  !confirm(
+                    "Willst du wirklich alle Vorschaubilder herunterladen?\n(Dies kann einen Moment dauern)"
+                  )
+                )
+                  return;
+
+                fetch(`/download/${product_id}`, {
+                  method: "POST",
+                })
+                  .then((response) => response.text())
+                  .then((text) => alert(text));
+              });
           });
       });
     </script>

@@ -15,7 +15,7 @@
   />
 </div>
 
-<div class="mt-8 flex">
+<div class="mt-8 flex space-x-3">
   <select
     id="color"
     name="color"
@@ -25,6 +25,13 @@
       <option value="<%= color.id %>"><%= color.name %></option>
     <% end %>
   </select>
+
+  <button
+    id="download"
+    class="rounded-md border-gray-200 border-2 focus:ring-0 focus:border-gray-200 px-2"
+  >
+    Alle herunterladen
+  </button>
 </div>
 
 <h2 class="font-bold text-3xl mt-14">Verfügbarkeit</h2>

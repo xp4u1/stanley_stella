@@ -1,4 +1,5 @@
 defmodule StanleyStella.Endpoint do
+  require Logger
   use Plug.Router
 
   plug(Plug.Logger)
@@ -18,6 +19,26 @@ defmodule StanleyStella.Endpoint do
 
       {:error, _} ->
         send_resp(conn, 404, "<p>Dieses Produkt existiert nicht.</p>")
+    end
+  end
+
+  post "download/:id" do
+    case StanleyStella.Web.download_preview_images(conn.params["id"]) do
+      :ok ->
+        send_resp(
+          conn,
+          200,
+          "Die Dateien wurden in \"#{StanleyStella.Web.download_directory_path()}\" gespeichert."
+        )
+
+      {:error, errors} ->
+        Logger.error(errors)
+
+        send_resp(
+          conn,
+          500,
+          "Beim Speichern ist ein Fehler aufgetreten."
+        )
     end
   end
 
