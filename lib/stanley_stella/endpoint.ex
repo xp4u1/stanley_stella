@@ -22,7 +22,7 @@ defmodule StanleyStella.Endpoint do
     end
   end
 
-  post "download/:id" do
+  post "/download/:id" do
     case StanleyStella.Web.download_preview_images(conn.params["id"]) do
       :ok ->
         send_resp(
