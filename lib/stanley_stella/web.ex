@@ -1,45 +1,52 @@
 defmodule StanleyStella.Web do
-  # Downloads preview images for all available colors.
-  def download_preview_images(product_id) do
-    results =
-      StanleyStella.stock!(product_id).colors
-      |> Enum.map(& &1.id)
-      |> Enum.map(&download_preview_images_internal(product_id, &1))
-      |> Enum.reject(&(&1 == :ok))
+  @preview_images_eex File.read!("web/preview_images.eex")
+  @product_details_eex File.read!("web/product_details.eex")
 
-    case results do
-      [] ->
-        :ok
+  def render_preview_images(product_id, color_id) do
+    EEx.eval_string(@preview_images_eex,
+      assigns: [
+        front_url: preview_image(product_id, color_id, :front),
+        back_url: preview_image(product_id, color_id, :back),
+        time: Time.utc_now()
+      ]
+    )
+  end
 
-      _ ->
-        {:error, results}
+  def render_product_details(product_id) do
+    case StanleyStella.stock(product_id) do
+      {:ok, data} ->
+        {:ok,
+         EEx.eval_string(@product_details_eex,
+           assigns: [
+             name: StanleyStella.product_name!(product_id),
+             colors: data.colors,
+             sizes: data.sizes,
+             stock:
+               data.stock
+               |> Enum.group_by(& &1.color.id)
+               |> Enum.map(fn {key, list} ->
+                 %{key => Enum.sort_by(list, &StanleyStella.size_index(&1.size))}
+               end)
+               |> Enum.reduce(&Map.merge/2),
+             preview_images_fragment:
+               render_preview_images(product_id, Enum.at(data.colors, 0).id)
+           ]
+         )}
+
+      error ->
+        error
     end
   end
 
-  defp download_preview_images_internal(product_id, color_id) do
-    case {download(
-            StanleyStella.preview_image(product_id, color_id, :front),
-            "#{product_id}_#{color_id}_Front.jpg"
-          ),
-          download(
-            StanleyStella.preview_image(product_id, color_id, :back),
-            "#{product_id}_#{color_id}_Back.jpg"
-          )} do
-      {:ok, :ok} ->
-        :ok
-
-      {result1, result2} ->
-        {:error, {result1, result2}}
-    end
+  def preview_image(product_id, color_id, :front) do
+    preview_image_internal(product_id, color_id, "PFM0")
   end
 
-  # Returns the download directory on the current system.
-  def download_directory_path do
-    File.cwd!() <> "/download"
+  def preview_image(product_id, color_id, :back) do
+    preview_image_internal(product_id, color_id, "PBM0")
   end
 
-  defp download(url, filename) do
-    File.mkdir_p!(download_directory_path())
-    File.write("#{download_directory_path()}/#{filename}", HTTPoison.get!(url).body)
+  defp preview_image_internal(product_id, color_id, image_id) do
+    "https://res.cloudinary.com/www-stanleystella-com/t_webshop_large/TechnicalNames/#{image_id}_#{product_id}_#{color_id}.jpg"
   end
 end

@@ -1,25 +1,19 @@
 <h2 class="font-bold text-3xl"><%= @name %></h2>
 
-<div class="mt-14 w-full flex justify-between space-x-2">
-  <img
-    id="preview_front"
-    class="w-96 rounded-md border-gray-100 border-2"
-    src="#"
-    alt="Front"
-  />
-  <img
-    id="preview_back"
-    class="w-96 rounded-md border-gray-100 border-2"
-    src="#"
-    alt="Back"
-  />
+<div id="preview_images" class="mt-14 w-full flex justify-between space-x-2">
+  <%= @preview_images_fragment %>
 </div>
 
-<div class="mt-8 flex space-x-3">
+<div class="mt-8 flex flex-wrap gap-3">
   <select
     id="color"
-    name="color"
+    name="color_id"
     class="rounded-md border-gray-200 border-2 focus:ring-0 focus:border-gray-200"
+    hx-trigger="change"
+    hx-get="/html/preview"
+    hx-params="*"
+    hx-include="input#product,select#color"
+    hx-target="#preview_images"
   >
     <%= for color <- @colors do %>
       <option value="<%= color.id %>"><%= color.name %></option>
@@ -29,9 +23,15 @@
   <button
     id="download"
     class="rounded-md border-gray-200 border-2 focus:ring-0 focus:border-gray-200 px-2"
+    hx-get="/actions/download"
+    hx-target="#download_status"
+    hx-include="input#product"
+    hx-confirm="Willst du wirklich alle <%= Enum.count(@colors) * 2 %> Vorschaubilder herunterladen? (Das kann einen Moment dauern)"
   >
     Alle herunterladen
   </button>
+
+  <p id="download_status" class="text-lg self-center"></p>
 </div>
 
 <h2 class="font-bold text-3xl mt-14">Verfügbarkeit</h2>

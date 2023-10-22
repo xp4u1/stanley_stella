@@ -1,0 +1,12 @@
+<img
+  id="preview_front"
+  class="w-96 rounded-md border-gray-100 border-2"
+  src="<%= @front_url %>"
+  alt="Front"
+/>
+<img
+  id="preview_back"
+  class="w-96 rounded-md border-gray-100 border-2"
+  src="<%= @back_url %>"
+  alt="Back"
+/>
